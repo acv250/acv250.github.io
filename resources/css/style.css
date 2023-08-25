@@ -21,6 +21,10 @@ body {
     font-weight: bold;
 }
 
+.mainNav a:link {
+    text-decoration: none;
+}
+
 .mainNav ul li:hover {
     text-decoration: none;
     background-color: rgb(150, 150, 150);
