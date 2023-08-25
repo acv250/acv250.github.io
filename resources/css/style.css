@@ -1,3 +1,103 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+body {
+    
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.mainNav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(170, 170, 170);
+}
+
+.mainNav a {
+    font-weight: bold;
+}
+
+.mainNav ul li:hover {
+    text-decoration: none;
+    background-color: rgb(150, 150, 150);
+}
+
+.mainNav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: block;
+    border: 1px solid black;
+    position: relative;
+    min-height: 500px;
+    height: 100%;
+}
+
+.sidebar {
+    border-right: 1px solid black;
+    padding-right: 30px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.sidebar ol li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: -80px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:link {
+    text-decoration: none;
+}
+  
+.sidebar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+section {
+    margin-left: 200px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color: rgb(192, 192, 192);
+}
+
+
+th, td {
+    padding: 10px 10px 10px 5px;
+    border: 1px solid black;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
